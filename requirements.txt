@@ -1,1 +1,5 @@
 Flask==0.12.1
+Flask-RESTful
+SQLAlchemy
+requests
+psycopg2

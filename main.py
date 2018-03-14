@@ -1,7 +1,4 @@
 from flask import Flask,render_template
-from sqlalchemy import Column, Integer, Sequence, String, ForeignKey, DateTime
-from datetime import datetime
-import psycopg2
 
 app = Flask(__name__)
 

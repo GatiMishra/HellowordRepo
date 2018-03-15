@@ -1,8 +1,5 @@
 from flask import Flask,render_template
 from sqlalchemy import create_engine,Column, String, Integer, Date,asc, Sequence
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.exc import *
 
 app = Flask(__name__)
 

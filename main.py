@@ -11,6 +11,8 @@ def featureRequestDetails():
 def featureRequestForm():
     """ featureRequestForm function is used to display featureRequestForm html page"""
     return render_template('featureRequestForm.html')
+
+app.config.from_object(Config)
 	
 if __name__ == '__main__':
   app.run()
